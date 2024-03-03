@@ -1,9 +1,12 @@
 
+import Background from "./components/Background";
 import WeatherComponent from "./components/WeatherComponent";
 function App() {
   return (
    <>
-<WeatherComponent />
+  <Background />
+  <WeatherComponent />
+
 
 
 
